@@ -1,0 +1,12 @@
+class typhoon_directory:
+    def__init__(self,month,speed)
+        self.month = month
+        self.speed = speed
+        self.directory={"Agaton":["March",95],"Basyang":["July",130],"Caloy":["July",65],"Domeng":["August",65],"Ester":["August",95],"Florita":["August",55],"Glenda":["August",175],"Henry":["September",65],"Inday":["September",195],"Juan":["September",305],}
+    def month(self,self_name):
+        print(f"{typhoon_name} Month:{self.directory[typhoon_name][0]}")
+        print(f"{typhoon_name} Speed:{self.directory[typhoon_name][1]}")
+        
+directory=typhoon_directory()
+directory.month("Agaton")
+directory.speed("Agaton")
